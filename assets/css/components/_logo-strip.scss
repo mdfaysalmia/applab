@@ -1,0 +1,19 @@
+/* ====================================================
+            Logo Strip CSS styles 
+ ===================================================== */
+
+.logo-strip-area {
+    padding: 115px 0 0px;
+  .logo-strip-wrapper {
+    .logo-strip-title {
+        color: $heading_color;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .logo-strip-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

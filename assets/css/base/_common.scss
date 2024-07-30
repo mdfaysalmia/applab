@@ -1,0 +1,81 @@
+@import "variables";
+/* ====================================================
+            Google Fonts 
+ ===================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* ====================================================
+            Reset CSS styles 
+ ===================================================== */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font_family;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $text-color;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $heading_color;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 400;
+  &:hover {
+    color: $primary_color;
+  }
+}
+
+ul,
+li,
+p {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* ========== Section Title Style =============*/
+.section-title-wrap {
+  .section-title {
+    color: $heading_color;
+  }
+  .section-text {
+    margin-top: 30px;
+  }
+}
+/* ========== Button Style =============*/
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 20px 40px;
+  color: $white;
+  background-color: $primary_color;
+  border-radius: 28px;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -ms-border-radius: 28px;
+  -o-border-radius: 28px;
+  transition: $transition;
+  -webkit-transition: $transition;
+  -moz-transition: $transition;
+  -ms-transition: $transition;
+  -o-transition: $transition;
+  &:hover {
+    background-color: $secondary_color;
+    color: $white;
+  }
+}

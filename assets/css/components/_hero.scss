@@ -1,0 +1,71 @@
+/* ====================================================
+            Hero Area CSS styles 
+ ===================================================== */
+
+.hero-area {
+  //   height: calc(100vh - 110px);
+  background-image: url(../../assets/images/hero-bg.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .hero-left-content {
+    .hero-sub-title-wrap {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 8px;
+      background-color: #e2eaed;
+      padding: 0px 48px 0px 0px;
+      border-radius: 50px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+
+      .hero-icon-box {
+        padding: 10px 14px;
+        color: $white;
+        background-color: $orange;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+      }
+      .hero-sub-title {
+        font-family: $font_family;
+        font-size: 18px;
+        line-height: 1;
+        font-weight: 600;
+        color: $heading_color;
+        margin-bottom: 0;
+      }
+    }
+    .hero-main-title {
+      color: $heading_color;
+      margin: 20px 0;
+    }
+    .hero-text {
+      font-size: 18px;
+      color: $text-color;
+      margin-bottom: 40px;
+    }
+    .hero-button-wrap {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .secondary-button {
+        color: $blue;
+      }
+    }
+  }
+
+}

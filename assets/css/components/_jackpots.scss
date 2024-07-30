@@ -1,0 +1,68 @@
+/* ====================================================
+            Jackpot CSS styles 
+ ===================================================== */
+.jackpot-area {
+    .section-title-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        .section-title {
+            max-width: 410px;
+            color: $heading_color;
+        }
+        .border-shape {
+            position: relative;
+            display: inline-block;
+            width: 2px;
+            height: 150px;
+            background-color: $border_color;
+        }
+        .section-text {
+            max-width: 410px;
+            margin: 0;
+        }
+    }
+  .jackpot-wrapper {
+    .jackpot-item {
+        padding: 30px;
+      .jackpot-icon-wrap {
+        width: 88px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        &.bg-1 {
+          background-color: #ffecef;
+        }
+        &.bg-2 {
+          background-color: #f4f4ff;
+        }
+        &.bg-3 {
+          background-color: #e4ffee;
+        }
+      }
+      .jackpot-inner-item {
+        .jackpot-title {
+            margin-top: 35px;
+            margin-bottom: 15px;
+          &.red {
+            color: $red;
+          }
+          &.blue {
+            color: $blue;
+          }
+          &.green {
+            color: $green;
+          }
+        }
+        
+      }
+    }
+  }
+}

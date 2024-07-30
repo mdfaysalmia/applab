@@ -1,0 +1,11 @@
+$heading: (h1, 60px, 600, 125%), (h2, 40px, 600, 125%), (h3, 36px, 600, 128%),
+  (h4, 24px, 600, 132%), (h5, 20px, 600, 125%), (h6, 18px, 400, 155%),
+  (p, 16px, 400, 162%);
+
+@each $name, $font_size, $font_weight, $line_height in $heading {
+  #{$name} {
+    font-size: $font-size;
+    font-weight: $font_weight;
+    line-height: $line_height;
+  }
+}

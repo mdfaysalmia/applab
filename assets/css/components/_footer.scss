@@ -1,0 +1,46 @@
+/* ====================================================
+            Footer CSS styles 
+ ===================================================== */
+.footer-area {
+  padding: 115px 0 125px;
+  background-color: $secondary_color;
+  .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .footer-menu-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 35px;
+      .footer-menu-item {
+        .footer-link {
+          display: block;
+          color: $white;
+          font-size: 16px;
+          line-height: 1;
+          margin: 45px 0;
+        }
+      }
+    }
+    .social-icon-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 30px;
+      .social-icon-item {
+        .social-link {
+            font-size: 30px;
+            color: #273043;
+        }
+      }
+    }
+    .copyright-text {
+        font-size: 14px;
+        line-height: 1;
+        color: #5b5f6a;
+        margin-top: 80px;
+    }
+  }
+}

@@ -1,0 +1,111 @@
+/* ====================================================
+            Pricing CSS styles 
+ ===================================================== */
+.pricing-area {
+  padding-bottom: 105px;
+  .section-title-wrap {
+    max-width: 630px;
+    margin: 0px auto 80px;
+    text-align: center;
+  }
+  .pricing-wrapper {
+
+    .pricing-nav-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .pricing-nav-tabs {
+          display: inline-flex;
+          padding: 4px;
+          border: 2px solid $border_color;
+          margin-bottom: 40px;
+          border-radius: 50px;
+          -webkit-border-radius: 50px;
+          -moz-border-radius: 50px;
+          -ms-border-radius: 50px;
+          -o-border-radius: 50px;
+          .pricing-nav-item {
+            .pricing-nav-link {
+              padding: 15px 35px;
+              background-color: transparent;
+              color: $text-color;
+              font-size: 16px;
+              line-height: 1;
+              font-weight: 700;
+              border-radius: 50px;
+              -webkit-border-radius: 50px;
+              -moz-border-radius: 50px;
+              -ms-border-radius: 50px;
+              -o-border-radius: 50px;
+              transition: all 0.4s ease-in-out;
+              -webkit-transition: all 0.4s ease-in-out;
+              -moz-transition: all 0.4s ease-in-out;
+              -ms-transition: all 0.4s ease-in-out;
+              -o-transition: all 0.4s ease-in-out;
+              &:hover,
+              &.active {
+                background-color: $primary_color;
+                color: $white;
+              }
+            }
+          }
+        }
+    }
+
+
+    .pricing-tab-content {
+      .pricing-tab-pane {
+        .pricing-tab-pane-item {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          gap: 40px;
+          .pricing-tab-inner-item {
+            max-width: 315px;
+            text-align: center;
+            border: 2px solid $border_color;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            .pricing-header {
+              padding: 65px 0 35px;
+              background-color: #f7f9fa;
+              .price {
+                color: $heading_color;
+                line-height: 1;
+                span {
+                  font-size: 18px;
+                  color: $text-color;
+                }
+              }
+              .price-type {
+                color: $heading_color;
+                font-weight: 600;
+                margin-top: 20px;
+              }
+            }
+            .pricing-body {
+              padding: 40px 30px 25px;
+              text-align: center;
+              .price-list {
+                .price-item {
+                  margin-bottom: 20px;
+                }
+              }
+
+              .free-plan {
+                color: $primary_color;
+                font-weight: 600;
+                margin-top: 30px;
+                line-height: 1;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

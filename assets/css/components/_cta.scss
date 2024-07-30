@@ -1,0 +1,27 @@
+/* ====================================================
+            CTA CSS styles 
+ ===================================================== */
+.cta-area {
+  position: relative;
+  padding: 100px 0 105px;
+  border-top: 2px solid $border_color;
+  background-image: url(../../assets/images/CTA.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: -50px;
+  .cta-wrapper {
+    .section-title-wrap {
+        .section-text {
+            margin-top: 40px;
+        }
+    }
+    .cta-button-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 32px;
+      margin-top: 45px;
+    }
+  }
+}

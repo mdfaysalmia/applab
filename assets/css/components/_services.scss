@@ -1,0 +1,70 @@
+/* ====================================================
+            Services CSS styles 
+ ===================================================== */
+.services-area {
+    padding: 140px 0;
+    border-top: 2px solid $border_color;
+  .section-title-wrap {
+    text-align: center;
+    margin-bottom: 30px;
+    .section-title {
+      color: $heading_color;
+      max-width: 470px;
+      margin: 0 auto;
+    }
+    .section-text {
+      max-width: 590px;
+      margin: 30px auto 0;
+    }
+  }
+  .services-wrapper {
+    text-align: center;
+    .single-service-item {
+        padding: 30px 30px;
+      .service-icon-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 88px;
+        height: 88px;
+        background-color: $secondary_color;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin: 0 auto;
+        &.bg-1 {
+            background-color: #ffecef;
+        }
+        &.bg-2 {
+            background-color: #eaf9ff;
+        }
+        &.bg-3 {
+            background-color: #fff6d3;
+        }
+        &.bg-4 {
+            background-color: #e4ffee;
+        }
+        &.bg-5 {
+            background-color: #f4f4ff;
+        }
+        &.bg-6 {
+            background-color: #fdeee4;
+        }
+        img {
+            max-width: 100%;
+        }
+      }
+      .service-content-wrap {
+        .service-title {
+            color: $heading_color;
+            margin: 35px 0 20px;
+        }
+        .service-text {
+            color: $text-color;
+        }
+      }
+    }
+  }
+}

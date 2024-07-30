@@ -1,0 +1,22 @@
+/* ====================================================
+            Integration CSS styles 
+ ===================================================== */
+
+.integration-area {
+    padding: 75px 0 72px;
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  .integration-left {
+    img {
+        max-width: 100%;
+        object-fit: cover;
+    }
+  }
+  .integration-right {
+    .button {
+      margin-top: 40px;
+    }
+  }
+}
